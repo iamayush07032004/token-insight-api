@@ -129,6 +129,31 @@ POST /api/token/solana/insight
 - Requests
 - Python-dotenv
 - CoinGecko API
+## Run with Docker
+
+### Build Docker Image
+
+```bash
+docker build -t token-insight-api .
+```
+
+### Run Docker Container
+
+```bash
+docker run -p 8000:8000 token-insight-api
+```
+
+### Access Application
+
+```text
+http://localhost:8000
+```
+
+### Swagger Documentation
+
+```text
+http://localhost:8000/docs
+```
 
 ## Repository
 
